@@ -26,7 +26,6 @@ public class MagazineSubject implements Subject{
             observers.remove(obj);
         }
     }
-
     @Override
     public void notifyObserver() {
         for(int i=0;i<observers.size();i++){
