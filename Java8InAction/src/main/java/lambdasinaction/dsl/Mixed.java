@@ -18,9 +18,7 @@ package lambdasinaction.dsl;
 
 import lambdasinaction.dsl.model.Order;
 
-import static lambdasinaction.dsl.MixedBuilder.buy;
-import static lambdasinaction.dsl.MixedBuilder.sell;
-import static lambdasinaction.dsl.MixedBuilder.forCustomer;
+import static lambdasinaction.dsl.MixedBuilder.*;
 
 public class Mixed {
     public void mixed() {

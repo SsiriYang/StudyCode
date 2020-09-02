@@ -1,10 +1,10 @@
 package lambdasinaction.chap5;
 
+import java.nio.charset.Charset;
+import java.nio.file.*;
 import java.util.*;
 import java.util.function.IntSupplier;
 import java.util.stream.*;
-import java.nio.charset.Charset;
-import java.nio.file.*;
 
 public class BuildingStreams {
 
