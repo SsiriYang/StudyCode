@@ -38,7 +38,6 @@ public enum MenuGroup {
 
     /**
      * @Description  获取角色权限
-     * @Date 15:12
      * @Param [code] 权限码共四位 规定前两位是菜单权限码 后两位是操作权限码
      * @return java.util.List<java.lang.String>
      */
