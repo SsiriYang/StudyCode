@@ -1,8 +1,10 @@
 package ZUA.ys.util;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 /**
  * @Author 41765
@@ -17,7 +19,8 @@ public class TimeUtil {
 //        replastr();
 //
 //        parseToEvery();
-        System.out.println(getCode());
+        getTheTimeInMinutes();
+        System.out.println( getTheTimeInMinutes());
     }
 
     /**
@@ -103,6 +106,18 @@ public class TimeUtil {
         Long b = 2L;
         Integer c = b.intValue();
         System.out.println(c);
-
     }
+
+    /**
+     *
+     * 获取当前时间（精确到分）的字符串
+     * @return 返回时间字符串yyyyMMddHHmm
+     */
+    public static String getTheTimeInMinutes() {
+        SimpleDateFormat time = new SimpleDateFormat("yyyyMMddHHmm");
+        Date date = new Date();
+        return time.format(date);
+    }
+
+
 }
