@@ -1,4 +1,4 @@
-package ZUA.ys.design.Observer_mode;
+package ZUA.ys.design.observer_mode;
 
 import java.util.ArrayList;
 import java.util.List;

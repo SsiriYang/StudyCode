@@ -1,4 +1,4 @@
-package ZUA.ys.design.Singleton;
+package ZUA.ys.design.singleton;
 
 /**
  * @Author 41765
