@@ -2,8 +2,6 @@ package ZUA.ys.data_tructure;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * @Author 41765
  * @Creater 2020/2/11 22:36
