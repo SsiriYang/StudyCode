@@ -4,6 +4,7 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Description
@@ -19,6 +20,7 @@ public class EagerThreadPoolTest {
                 60, TimeUnit.SECONDS,
                 queue,threadFactory,new MyRejectPolicy());
         queue.setExecutor(threadPool);
+        ReentrantLock reentrantLock = new ReentrantLock();
         threadPool.execute(new TestThread(1));
         threadPool.execute(new TestThread(2));
         threadPool.execute(new TestThread2(3));

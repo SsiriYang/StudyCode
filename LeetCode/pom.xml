@@ -24,6 +24,8 @@
     <commons-csv.version>1.5</commons-csv.version>
     <commons-lang3.version>3.9</commons-lang3.version>
     <commons-io.version>2.7</commons-io.version>
+    <hyperic.version>1.6.4</hyperic.version>
+    <jetcache-core.version>2.5.12</jetcache-core.version>
   </properties>
 
   <dependencies>
@@ -89,6 +91,18 @@
       <artifactId>commons-io</artifactId>
       <version>${commons-io.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.hyperic</groupId>
+      <artifactId>sigar</artifactId>
+      <version>${hyperic.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.alicp.jetcache</groupId>
+      <artifactId>jetcache-core</artifactId>
+      <version>${jetcache-core.version}</version>
+    </dependency>
+
   </dependencies>
 
   <build>
